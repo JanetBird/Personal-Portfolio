@@ -1,0 +1,36 @@
+.mainNav {
+    display: flex; 
+    -webkit-animation: fadeInDown 3s; 
+    -moz-animation: fadeInDown 3s; 
+    -ms-animation: fadeInDown 3s;
+    -o-animation: fadeInDown 3s; 
+    animation: fadeInDown 3s;
+    ul {
+        display: flex;
+        padding: 0;
+        li {
+        margin-right: 20px;
+        text-transform: uppercase;
+        @include textFont(12);
+        }
+        a {
+            text-decoration: none;
+            color: $color-maintxt;
+            transition: all 0.5s;
+            &:hover {
+                color: $color-accent;
+            }
+        }
+    }
+}
+
+@keyframes fadeInDown {
+   0% {
+        opacity: 0;
+        transform: translateY(-50px);
+   }
+   100% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+} 

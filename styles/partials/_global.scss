@@ -1,0 +1,69 @@
+$color-maintxt: #1f1f1f;
+$color-sectxt: #f6f6f6;
+$color-background: rgb(244, 244, 244);
+$color-accent: rgb(181, 129, 66);
+
+
+@mixin headingFont($size){
+   font-family: 'Montserrat', sans-serif;
+   font-size: $size * 1px;
+   font-size: ($size/10) * 1rem;
+}
+
+@mixin textFont($size){
+   font-family: 'Raleway', sans-serif;
+   font-size: $size * 1px;
+   font-size: ($size/10) * 1rem;
+}
+
+body {
+   @include textFont(14);
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+   max-width: 1380px;
+   margin: 0 auto;
+   padding: 0 50px;
+}
+
+h1 {
+   @include headingFont(72);
+   color: $color-accent;
+   line-height: 1;
+   margin: 0;
+   -webkit-animation: fadeIn 2s; 
+   -moz-animation: fadeIn 2s; 
+   -ms-animation: fadeIn 2s;
+   -o-animation: fadeIn 2s; 
+   animation: fadeIn 2s;
+}
+
+h2 {
+   @include headingFont(24);
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+h3 {
+   @include headingFont(20);
+}
+
+h4 {
+   @include textFont(16);
+   margin: 0;
+   margin-bottom: 50px;
+   line-height: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
