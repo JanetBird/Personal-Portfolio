@@ -50,6 +50,11 @@
         align-items: flex-start;
         justify-content: center;
         filter: grayscale(100%);
+        transition: all 0.5s;
+            &:hover {
+                filter: none;
+                cursor: pointer;
+            }
         }
 }
 
