@@ -1,7 +1,7 @@
 // ABOUT SECTION BELOW
 
 .about {
-    padding: 25px 0 50px 0;
+    padding: 125px 0 100px 0;
     &__div {
         display: flex;
         justify-content: space-between;
@@ -31,10 +31,9 @@
 // PORTFOLIO SECTION BELOW
 
 .work {
-   padding-top: 25px; 
    h2 {
        background: $color-background;
-       margin-bottom: 0;
+       margin: 0;
        padding: 50px 0;
    }
 }
@@ -142,7 +141,6 @@
 .compTASTY {
     width: 80%;
     align-self: center;
-    padding-left: 40px;
 }
 
 .compTTT {

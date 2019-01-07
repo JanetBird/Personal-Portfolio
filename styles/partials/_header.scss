@@ -1,14 +1,19 @@
-.title { 
+header {
+    background-image: url(../assets/profileHero.jpg);
+    background-size: cover;
+}
+
+.title {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: center;
+    justify-content: flex-start;
     h4, .iconNav {
-        -webkit-animation: fadeInUp 3s; 
-        -moz-animation: fadeInUp 3s; 
-        -ms-animation: fadeInUp 3s;
-        -o-animation: fadeInUp 3s; 
-        animation: fadeInUp 3s;
+        -webkit-animation: fadeInUp 4s; 
+        -moz-animation: fadeInUp 4s; 
+        -ms-animation: fadeInUp 4s;
+        -o-animation: fadeInUp 4s; 
+        animation: fadeInUp 4s;
         }
     i {
         color: $color-accent;

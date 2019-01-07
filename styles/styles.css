@@ -152,11 +152,12 @@ h1 {
   color: #b58142;
   line-height: 1;
   margin: 0;
-  -webkit-animation: fadeIn 2s;
-  -moz-animation: fadeIn 2s;
-  -ms-animation: fadeIn 2s;
-  -o-animation: fadeIn 2s;
-  animation: fadeIn 2s; }
+  margin-top: 125px;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  animation: fadeIn 3s; }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -242,6 +243,10 @@ h4 {
 .toggleNav {
   display: none; }
 
+header {
+  background-image: url(../assets/profileHero.jpg);
+  background-size: cover; }
+
 .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -251,15 +256,15 @@ h4 {
   -ms-flex-direction: column;
   flex-direction: column;
   min-height: 100vh;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
   .title h4, .title .iconNav {
-    -webkit-animation: fadeInUp 3s;
-    -moz-animation: fadeInUp 3s;
-    -ms-animation: fadeInUp 3s;
-    -o-animation: fadeInUp 3s;
-    animation: fadeInUp 3s; }
+    -webkit-animation: fadeInUp 4s;
+    -moz-animation: fadeInUp 4s;
+    -ms-animation: fadeInUp 4s;
+    -o-animation: fadeInUp 4s;
+    animation: fadeInUp 4s; }
   .title i {
     color: #b58142;
     margin-right: 20px;
@@ -290,7 +295,7 @@ h4 {
     opacity: 1; } }
 
 .about {
-  padding: 25px 0 50px 0; }
+  padding: 125px 0 100px 0; }
   .about__div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -315,12 +320,10 @@ h4 {
         font-size: 2.4rem;
         color: #b58142; }
 
-.work {
-  padding-top: 25px; }
-  .work h2 {
-    background: #f4f4f4;
-    margin-bottom: 0;
-    padding: 50px 0; }
+.work h2 {
+  background: #f4f4f4;
+  margin: 0;
+  padding: 50px 0; }
 
 .work__project {
   display: -webkit-box;
@@ -433,8 +436,7 @@ h4 {
 .compTASTY {
   width: 80%;
   -ms-flex-item-align: center;
-  align-self: center;
-  padding-left: 40px; }
+  align-self: center; }
 
 .compTTT {
   width: 80%;
@@ -657,7 +659,9 @@ h4 {
     .work__project__text--links li {
       margin: 25px 0; }
   .viewGit {
-    padding: 10px 36px; } }
+    padding: 10px 36px; }
+  .wrapper {
+    padding: 0 15px; } }
 
 @media (max-width: 320px) {
   .about__div__img {
