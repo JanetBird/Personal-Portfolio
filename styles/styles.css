@@ -661,7 +661,8 @@ header {
   .viewGit {
     padding: 10px 36px; }
   .wrapper {
-    padding: 0 15px; } }
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 @media (max-width: 320px) {
   .about__div__img {
