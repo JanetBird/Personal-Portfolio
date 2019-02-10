@@ -149,7 +149,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 72px;
   font-size: 7.2rem;
-  color: #b58142;
+  color: #1f1f1f;
   line-height: 1;
   margin: 0;
   margin-top: 125px;
@@ -163,13 +163,15 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
+  color: #1f1f1f;
   text-align: center;
   margin-bottom: 50px; }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #1f1f1f; }
 
 h4 {
   font-family: 'Raleway', sans-serif;
@@ -296,29 +298,23 @@ header {
 
 .about {
   padding: 125px 0 100px 0; }
-  .about__div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-  .about__div__img {
-    width: 25%; }
-    .about__div__img img {
-      width: 100%;
-      -webkit-box-shadow: 5px 5px 10px gray;
-      box-shadow: 5px 5px 10px gray; }
   .about__div__text {
-    width: 70%;
-    margin-left: 5%; }
+    text-align: center;
+    width: 65%;
+    max-width: 800px;
+    margin: auto; }
     .about__div__text p {
-      margin-top: 0; }
-      .about__div__text p span {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
-        font-size: 2.4rem;
-        color: #b58142; }
+      margin: 0; }
+    .about__div__text .intro {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-size: 2.4rem;
+      color: #1f1f1f;
+      color: black; }
+      .about__div__text .intro_2 {
+        margin-bottom: 50px; }
+      .about__div__text .intro_3 {
+        margin-bottom: 20px; }
 
 .work h2 {
   background: #f4f4f4;
@@ -363,6 +359,8 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 50%; }
+  .work__project__text span {
+    font-style: italic; }
   .work__project__text--1, .work__project__text--3 {
     text-align: right;
     display: -webkit-box;
@@ -380,6 +378,7 @@ header {
   .work__project__text--2 li, .work__project__text--4 li {
     margin-right: 20px; }
   .work__project__text ul {
+    font-size: 1.2rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0;
@@ -426,16 +425,19 @@ header {
 .compGFMW {
   width: 90%;
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center; }
 
 .phoneORANGE {
   width: 15%;
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center; }
 
 .compTASTY {
   width: 80%;
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center; }
 
 .compTTT {
@@ -447,6 +449,7 @@ header {
 .cupTTT {
   width: 15%;
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center; }
 
 .skills {
@@ -478,6 +481,7 @@ header {
       font-family: 'Montserrat', sans-serif;
       font-size: 12px;
       font-size: 1.2rem;
+      color: #1f1f1f;
       color: #b58142; }
   .skills__list--firebase {
     width: 110px;
@@ -507,6 +511,7 @@ header {
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       font-size: 1.4rem;
+      color: #1f1f1f;
       color: white;
       margin: 10px 0; }
       .contact ul li a {
@@ -603,7 +608,8 @@ header {
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 64px;
-    font-size: 6.4rem; }
+    font-size: 6.4rem;
+    color: #1f1f1f; }
   h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -643,11 +649,13 @@ header {
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
-    font-size: 5rem; }
+    font-size: 5rem;
+    color: #1f1f1f; }
   h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    color: #1f1f1f; }
   .work__project__text--links {
     display: -webkit-box;
     display: -ms-flexbox;
