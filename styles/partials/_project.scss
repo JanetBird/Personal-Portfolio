@@ -1,0 +1,67 @@
+.projectNav {
+    display: flex;
+    ul {
+        display: flex;
+        padding: 0;
+        li {
+        margin-right: 20px;
+        text-transform: uppercase;
+        @include textFont(12);
+        }
+        a {
+            text-decoration: none;
+            color: $color-maintxt;
+            transition: all 0.5s;
+            &:hover {
+                color: $color-accent;
+            }
+        }
+    }
+}
+
+.project {
+    text-align: center;
+    &__process {
+    padding-bottom: 30px;
+        &--1, &--3 {
+            background: $color-background;
+        }
+        &__img {
+        -webkit-animation: fadeInUp 1s; 
+        -moz-animation: fadeInUp 1s; 
+        -ms-animation: fadeInUp 1s;
+        -o-animation: fadeInUp 1s; 
+        animation: fadeInUp 1s;
+        width: 40%;
+        display: flex;
+        margin: 50px auto;
+        justify-content: center;
+        filter: grayscale(100%);
+        transition: all 0.5s;
+            &:hover {
+                filter: none;
+                cursor: pointer;
+            }
+        }
+    }
+    &__info {
+        h2 {
+        @include headingFont(24);
+        margin-bottom: 40px; 
+        margin-top: 80px;
+        }
+        p {
+        width: 75%;
+        max-width: 900px;
+        margin: 20px auto;
+        }
+        &__list {
+            width: 75%;
+            max-width: 900px;
+            margin: 0 auto;
+
+            }
+    }
+}
+
+

@@ -4,8 +4,8 @@
     padding: 125px 0 100px 0;
     &__div__text {
         text-align: center;
-        width: 65%;
-        max-width: 800px;
+        width: 75%;
+        max-width: 900px;
         margin: auto;
         p {
             margin: 0;   
@@ -95,7 +95,7 @@
     }
 }
 
-.viewLive {
+.theProcess {
     background: $color-accent;
     color: $color-sectxt;
     padding: 12px 22px;
@@ -108,7 +108,7 @@
     }
 }
 
-.viewGit {
+.viewGit, .viewLive {
     background: $color-sectxt;
     color: $color-maintxt;
     border: 2px solid $color-accent;

@@ -1,7 +1,7 @@
 $color-maintxt: #1f1f1f;
 $color-sectxt: #f6f6f6;
 $color-background: rgb(244, 244, 244);
-$color-accent: rgb(181, 129, 66);
+$color-accent: rgb(133, 90, 38);
 
 
 @mixin headingFont($size){
@@ -60,6 +60,16 @@ h4 {
    line-height: 1;
 }
 
+h5 {
+    @include headingFont(48);
+    margin: 0;
+}
+
+h6 {
+   @include textFont(16);
+   margin: 0;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -67,4 +77,8 @@ h4 {
   to {
     opacity: 1;
   }
+}
+
+p {
+   line-height: 1.5;
 }
