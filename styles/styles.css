@@ -539,7 +539,7 @@ p {
         .contact ul li a:hover {
           color: gray; }
   .contact i {
-    color: #855a26;
+    color: lightgray;
     margin-right: 20px;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -760,3 +760,6 @@ p {
     width: 75%;
     max-width: 900px;
     margin: 0 auto; }
+
+.conclusion {
+  margin-bottom: 100px; }
