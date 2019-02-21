@@ -150,6 +150,7 @@ h1 {
   font-size: 72px;
   font-size: 7.2rem;
   color: #1f1f1f;
+  color: #855a26;
   line-height: 1;
   margin: 0;
   margin-top: 125px;
@@ -179,7 +180,8 @@ h4 {
   font-size: 1.6rem;
   margin: 0;
   margin-bottom: 50px;
-  line-height: 1; }
+  line-height: 1;
+  color: #855a26; }
 
 h5 {
   font-family: 'Montserrat', sans-serif;
@@ -326,7 +328,7 @@ p {
       font-size: 24px;
       font-size: 2.4rem;
       color: #1f1f1f;
-      color: black; }
+      color: #1f1f1f; }
       .about__div__text .intro_2 {
         margin-bottom: 50px; }
       .about__div__text .intro_3 {
@@ -745,13 +747,28 @@ p {
         -webkit-filter: none;
         filter: none;
         cursor: pointer; }
+  .project__info--mapping, .project__info--sketch {
+    padding-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto; }
+  .project__info--mapping p, .project__info--mapping h2 {
+    text-align: left;
+    margin-left: 50px; }
+  .project__info--sketch p, .project__info--sketch h2 {
+    text-align: right;
+    margin-right: 50px; }
   .project__info h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     color: #1f1f1f;
     margin-bottom: 40px;
-    margin-top: 80px; }
+    margin-top: 120px; }
   .project__info p {
     width: 75%;
     max-width: 900px;
@@ -760,6 +777,14 @@ p {
     width: 75%;
     max-width: 900px;
     margin: 0 auto; }
+  .project__info__img {
+    width: 35%; }
+    .project__info__img img {
+      width: 100%; }
+  .project__info__text {
+    width: 35%; }
+    .project__info__text h2 {
+      margin-top: 0; }
 
 .conclusion {
   margin-bottom: 100px; }

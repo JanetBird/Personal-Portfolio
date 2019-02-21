@@ -45,10 +45,25 @@
         }
     }
     &__info {
+        &--mapping, &--sketch {
+            padding-top: 80px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        &--mapping p, &--mapping h2 {
+            text-align: left;
+            margin-left: 50px;
+        }
+        &--sketch p, &--sketch h2 {
+            text-align: right;
+            margin-right: 50px;
+        }
+        
         h2 {
         @include headingFont(24);
         margin-bottom: 40px; 
-        margin-top: 80px;
+        margin-top: 120px;
         }
         p {
         width: 75%;
@@ -61,6 +76,18 @@
             margin: 0 auto;
 
             }
+        &__img {
+            width: 35%;
+            img {
+                width: 100%;
+            }
+        }
+        &__text {
+            width: 35%;
+            h2 {
+                margin-top: 0;
+            }
+        }
     }
 }
 
