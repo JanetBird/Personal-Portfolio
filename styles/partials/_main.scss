@@ -31,7 +31,7 @@
    h2 {
        background: $color-background;
        margin: 0;
-       padding: 50px 0;
+       padding: 50px 0 0 0;
    }
 }
 
@@ -44,7 +44,7 @@
         &__img {
         width: 50%;
         display: flex;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         filter: grayscale(100%);
         transition: all 0.5s;
@@ -54,7 +54,6 @@
             }
         }
 }
-
 
 .work__project__text {
     padding: 50px 0;
@@ -101,10 +100,11 @@
     padding: 12px 22px;
     text-decoration: none;
     transition: all 0.25s;
+    border: 2px solid $color-accent;
     &:hover {
         background: $color-sectxt;
         color: $color-maintxt;
-        border: 2px solid $color-accent;
+        box-shadow: 4px 4px 5px lightgray;
     }
 }
 
@@ -112,13 +112,13 @@
     background: $color-sectxt;
     color: $color-maintxt;
     border: 2px solid $color-accent;
-    padding: 10px 20px;
+    padding: 12px 22px;
     text-decoration: none;
     transition: all 0.25s;
     &:hover {
         background: $color-accent;
         padding: 12px 22px;
-
+        box-shadow: 4px 4px 5px lightgray;
     }
 }
 

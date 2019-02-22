@@ -162,9 +162,11 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-size: 28px;
+  font-size: 2.8rem;
   color: #1f1f1f;
+  color: #855a26;
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 50px; }
 
@@ -337,7 +339,7 @@ p {
 .work h2 {
   background: #f4f4f4;
   margin: 0;
-  padding: 50px 0; }
+  padding: 50px 0 0 0; }
 
 .work__project {
   display: -webkit-box;
@@ -351,9 +353,9 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -418,24 +420,28 @@ p {
   text-decoration: none;
   -webkit-transition: all 0.25s;
   -o-transition: all 0.25s;
-  transition: all 0.25s; }
+  transition: all 0.25s;
+  border: 2px solid #855a26; }
   .theProcess:hover {
     background: #f6f6f6;
     color: #1f1f1f;
-    border: 2px solid #855a26; }
+    -webkit-box-shadow: 4px 4px 5px lightgray;
+    box-shadow: 4px 4px 5px lightgray; }
 
 .viewGit, .viewLive {
   background: #f6f6f6;
   color: #1f1f1f;
   border: 2px solid #855a26;
-  padding: 10px 20px;
+  padding: 12px 22px;
   text-decoration: none;
   -webkit-transition: all 0.25s;
   -o-transition: all 0.25s;
   transition: all 0.25s; }
   .viewGit:hover, .viewLive:hover {
     background: #855a26;
-    padding: 12px 22px; }
+    padding: 12px 22px;
+    -webkit-box-shadow: 4px 4px 5px lightgray;
+    box-shadow: 4px 4px 5px lightgray; }
 
 .compORANGE {
   width: 70%; }
